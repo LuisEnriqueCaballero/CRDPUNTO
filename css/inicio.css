@@ -1,0 +1,35 @@
+body{
+    background-image: url(../images/Sin-título-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.formulario {
+    background: rgba(0,0,0,1);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0,0,30px rgba(0, 0, 0, 568);
+    color: rgb(184, 221, 238);
+}
+input[type=text]{
+text-align: center;
+margin-top: 25px;
+}
+input[type=password]{
+    text-align: center;
+    margin-top: 25px;
+    }
+.form-control{
+    /* background: rgba(0, 0, 0, 1); */
+    border:1px solid blue;
+    /* border-style: none; */
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    background: none;
+}
+.form-control::placeholder{
+    color: rgb(40, 102, 216);
+}
